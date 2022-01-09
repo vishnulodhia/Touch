@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMeal.com</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+.img_bg{
+background: rgb(0, 0, 0,0.5) url(imag6.jpg);
+background-size: cover;
+background-blend-mode: darken;
+width: 100vw;
+height: 100vh;
+/* padding-bottom: 12px; */
+/* padding: 0px 10px; */
+
+}
+
+
+
+
+
+.container {
+                        /* Content is centered horizontally */
+                        /* background-color: #333; */
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                         font-size: 16px;
+                        /* font-family: 'Courier New', Courier, monospace; */
+                        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+                        /* Reset styles */
+                        
+                        font-family: "Segoe UI",Arial,sans-serif;
+
+                        list-style-type: none;      
+                        /* text-decoration: none; */
+                        width: 100vw;
+                        height: 10vh;
+                        /* margin-right:8px; */
+                    }
+                    
+                    .container__item--right {
+                        /* Sticks to the right */
+                        
+                        margin-left: auto;
+                        /* margin-right: 8px; */
+
+                        padding: 8px;
+                        /* margin-right: 12px; */
+                        /* margin: 10px; */
+                        /* text-decoration: none; */
+
+                    }
+                    li a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                    li{
+                        /* margin: 10px; */
+                        margin: 0px 24px;
+                        /* list-style-type: none; */
+                        /* text-decoration: none; */
+                     
+                        /* padding: 10px; */
+                    }
+                    .nav_write{
+                        font-size: 35px;
+                        color: white;
+                        margin: auto;
+                      font-family: Georgia, 'Times New Roman', Times, serif;
+                    }
+                    
+              /* .small{
+            font-size: 12px;
+            color: white;
+            margin: auto;
+            position: relative;
+            left: 587px;
+            top: 123px;
+            
+            } */
+            .flex{
+           
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 98px;
+
+            }
+
+            .small{
+            font-size: 13px;
+            color: white;
+            width: 100px;
+            height: 62px;
+            margin-top: 10px;
+            /* background-color: aqua; */
+            }
+        .big{
+            width: 100px;
+            height: 100px;
+          /* font-family: sans-serif; */
+          font-family: 'Times New Roman', Times, serif;
+          color: white;
+
+          font-size: 70px;
+          /* margin: auto; */
+          margin-right: 80px;
+
+        }
+
+.pra{          
+     /* background: turquoise; */
+                margin-top: 15px;
+                height: 20%;
+                width: 45%;
+                color: white;
+            }
+    .button{
+        /* margin-top: 10px; */
+   width: 100px;
+  height: 30px;
+  background: none;
+  color: white;
+  margin-top: 38px;
+width: 124px;
+height: 33px;
+    }
+@media only screen and (max-width: 406px){
+    /* .container{
+        font-size: 9px;
+    } */
+    .pra{
+        width: 56%;
+    }
+}
+@media only screen and (max-width: 476px){
+
+.container{
+    font-size: 8px;
+}
+
+
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="img_bg">
+      
+        
+        
+        <header>
+            
+            <ul class="container">
+                <!-- Navigation item -->
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact us">Contact us</a>
+                </li>
+                 <li> 
+                    <a href="#gallery">Gallery</a>
+
+                </li>
+                
+                <!-- Navigation item that sticks to the right -->
+              
+
+
+              
+                <li class="container__item--right">
+                    <a href="#like">Like</a>
+                </li>
+              
+                   <!-- <li> 
+                       <a href="#service">Service</a>
+
+                   </li> -->
+
+                   <!-- <li> 
+                       <a href="#gallery">Gallery</a>
+                       
+                    </li> -->
+                    
+                    
+                    
+                    
+                </ul>
+            </header>
+            <div class="flex">
+            <div class="small">cafe/restaurant</div>
+            <div class="big">Touche</div>
+            <div class="pra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora maiores dolor, nemo optio recusandae ipsa sint assumenda provident nam quos repellendus rerum, facilis voluptatibus eius quo incidunt alias? Totam officia vero fuga odio.</div>
+            <button type="button" class="button">Make Reservation</button>
+        </div>
+
+            
+        </div>
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
